@@ -1,2 +1,7 @@
-# pos-releases
-POS System installers &amp; update policy (no source cod)
+# POS System — Releases
+
+ที่เก็บไฟล์ติดตั้ง/อัปเดตของโปรแกรม POS System สำหรับร้านสาขา (ไม่มี source code)
+
+- โปรแกรมที่ร้านเช็คเวอร์ชันใหม่จาก Releases ของ repo นี้อัตโนมัติ
+- `update-policy.json` → `minimumVersion` = เวอร์ชันต่ำสุดที่ยอมให้ใช้ (ต่ำกว่านี้ถูกบังคับอัปเดต)
+- ห้ามเปลี่ยนชื่อ/ย้าย repo นี้ — ชื่อถูกฝังอยู่ในโปรแกรมที่ติดตั้งแล้ว
